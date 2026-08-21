@@ -40,7 +40,7 @@ Short_Circuits=st.number_input(
     "Short Circuits",min_value=0,max_value=1,
     step=1)
 Temperature=st.number_input("Temperature")
-Overcharge_Overdischarge=st.selectbox("Overcharge Overdischarge")
+Overcharge_Overdischarge=st.selectbox("Overcharge Overdischarge", ["Yes","No"])
 Battery_Maintenance=st.selectbox("Battery Maintenance")
 Battery_Health=st.selectbox("Battery_Health")
 
