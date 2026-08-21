@@ -36,7 +36,9 @@ Poor_Battery_Design=st.number_input(
     max_value=1,
     value=0,
     step=1)
-Short_Circuits=st.number_input("Short Circuits",min_value=0.0,max_value=1.0,step=1)
+Short_Circuits=st.number_input(
+    "Short Circuits",min_value=0,max_value=1,
+    step=1)
 Temperature=st.number_input("Temperature")
 Overcharge_Overdischarge=st.selectbox("Overcharge Overdischarge")
 Battery_Maintenance=st.selectbox("Battery Maintenance")
