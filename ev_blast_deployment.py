@@ -18,8 +18,8 @@ model= joblib.load("Ev_blast.pkl")
 
 st.title("Battery Health Prediction")
 
-Battery_type=st.selectbox("
-    Battery type",
+Battery_type=st.selectbox(
+    "Battery type",
     ["Lithium-ion","Lead-Acid","Nickel-metal hyride"]
 )
 Poor_Cell_Design=st.number_input("Poor Cell Design",min_value=0.0,max_value=1.0,step=1)
