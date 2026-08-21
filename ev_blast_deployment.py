@@ -22,7 +22,12 @@ Battery_type=st.selectbox(
     "Battery type",
     ["Lithium-ion","Lead-Acid","Nickel-metal hyride"]
 )
-Poor_Cell_Design=st.number_input("Poor Cell Design",min_value=0.0,max_value=1.0,step=1)
+Poor_Cell_Design=st.number_input(
+    "Poor Cell Design",
+    min_value=0,
+    max_value=100,
+    value=0,
+    step=1)
 External_Abuse=st.selectbox("External Abuse")
 Poor_Battery_Design=st.number_input("Poor Battery Design",min_value=0.0,max_value=1.0,step=1)
 Short_Circuits=st.number_input("Short Circuits",min_value=0.0,max_value=1.0,step=1)
