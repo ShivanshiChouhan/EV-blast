@@ -42,7 +42,7 @@ Short_Circuits=st.number_input(
 Temperature=st.number_input("Temperature")
 Overcharge_Overdischarge=st.selectbox("Overcharge Overdischarge", ["Yes","No"])
 Battery_Maintenance=st.selectbox("Battery Maintenance", ["Yes","No"])
-Battery_Health=st.selectbox("Battery_Health")
+Battery_Health=st.selectbox("Battery_Health", ["Good","Moderate","Poor"])
 
 
 df= pd.DataFrame({
